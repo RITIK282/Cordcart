@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+<head>
+    <link rel="stylesheet" href="main.css">
+      <link rel="shortcut icon" type="img/png" href="faviconig.png" >
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+
+<style>
+    
+     
+    .signupform{
+        background-image: linear-gradient( 135deg, #f4fcc5 10%, #f8b3c2 100%);
+    
+       height: 550px;
+     }
+
+     /* input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+     */
+</style>
+<body>
+   
+
+    <nav class="header">
+        <!--Navbar has two part the top one and the bottom one-->
+        <!--Here is top one and in this part I put logo, my account part, and the shopping cart-->
+        <div class="navbar-top">
+            <div>
+               <i class=""id="menuButton"></i>
+                <!--Logo-->
+               
+            </div>
+            <div>    
+                <div class="logo">
+              <a href="index3.html"> <img style=" align-items:left;" src="cklogo.png" alt=""></a> 
+
+          </div>
+         
+                    <!--When we click the btnShowAccountInfo this section will be displayed-->
+                </div>
+                <!--Shopping cart-->
+                <div class="shopping-cart">
+                    <div class="sum-prices">
+
+                        <nav>
+                            <ul>
+                                <li class="active"><a href="index3.html">Home</a></li>
+                                <li><a href="shopping.html">Courses</a></li>
+                                <li><a href="">Account</a></li>
+                                <li><a href="">Login</a></li>
+                              
+                            </ul>
+                        </nav>
+                        <!--Shopping cart logo-->
+                       <i style="color: red;"
+                            class="fas fa-shopping-cart shoppingCartButton"
+                        ></i>
+                        <!--The total prices of products in the shopping cart -->
+                        <h6 id="sum-prices"></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+  <div class="bgcoursehere">
+        <div class="producstOnCart hide">
+            <div class="overlay"></div>
+            <div class="top">
+                <button id="closeButton">
+                    <i class="fas fa-times-circle"></i>
+                </button>
+                <h3>Cart</h3>
+            </div>
+            <ul id="buyItems">
+                <h4 class="empty">Your shopping cart is empty</h4>
+               
+            </ul>
+            <button class="btn checkout hidden">Check out</button>
+        </div>
+    </nav>
+
+
+
+    <section class="signupform">
+    <div class="bglogin">
+
+    </div>
+    <div class="signup">
+   
+
+<h1>Login here</h1>    
+<form action="">
+    
+    <input type="email" class="input-box" placeholder="Your Email" required>
+    <input type="Password" class="input-box" placeholder="Password" required>
+ 
+    <button type="button" style="margin-top: 60px;" class="sign-btn">Login </button>
+    <hr>
+    <p>Do not have an account?</p>
+     <p><a href="signpage.html">Create an account</a></p>
+</form>
+</div>
+</section>
+
+
+
+
+    <section  class="footer">
+        <h4 style="color: red;font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 30;" >ABOUT US</h4>
+      
+        <p style="color:rgb(1, 15, 15);font-size: 20px;font-size: 16px;word-wrap: normal;">Our website is an great initiative taken to give  coders a fanstastic platform to buy different- different top rated courses ,
+            to enhance their knowledge, learn and boost up their skills and become ready to start their awesome career. Stay up-to-date with our platform,
+           We create possibilities for the connected world. </p>
+  
+        <div class="icons">
+            <a><i class="fab fa-facebook-square"></i></a>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p style="font-size: 14px;" div class="last">Made with <i class="fas fa-hand-holding-heart"></i> by team members of CodeKart<br>
+  
+            © 2022 CodeKart. All rights reserved.</p>
+        </p>
+        </div>
+       
+</body>
+</html>

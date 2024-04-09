@@ -1,0 +1,38 @@
+.product-container {
+  background: #f0f0f0;
+  padding: 2rem;
+  border-radius: 4px;
+}
+
+.product {
+  margin-top: 1.5rem;
+}
+
+.product h4 {
+  font-size: 16px;
+}
+
+.product h6 {
+  font-size: 12px;
+}
+
+.product-price {
+  font-weight: bold;
+}
+
+.bill-amt {
+  background: #cfcfcf;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.bill-amt p {
+  font-weight: bold;
+  text-align: right;
+  font-size: 14px;
+}
+
+.bill-amt button {
+  width: 100%;
+  margin-top: 70%;
+}

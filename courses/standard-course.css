@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+}
+
+.bg {
+  background-image: url("https://wallpapercave.com/wp/wp2747958.jpg");
+  width: 100%;
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.content-sub-contain {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  /* border: 1px solid red; */
+  padding: 20px 0px;
+}
+
+.left-detail-box {
+  width: 60%;
+  float: left;
+  /* border: 1px solid blue; */
+  height: 2000px;
+  color: white;
+}
+
+.other-course-details-banner {
+  margin-top: 10px;
+}
+
+.main-desc-course {
+  color: black;
+  width: 100%;
+  margin-top: 30%;
+}
+
+.what-you-learn {
+  border: 1px solid black;
+  padding: 20px;
+  height: 43vh;
+}
+
+.what-you-learn ul li {
+  font-size: 14px;
+  list-style: none;
+  margin-bottom: 6px;
+}
+
+.what-you-learn ul li::before {
+  content: "\2713";
+  margin-right: 8px;
+}
+
+.description {
+  margin-top: 10%;
+}
+
+.price-box {
+  width: 35%;
+  float: right;
+  margin-left: 5%;
+  border: 1px solid white;
+  position: sticky;
+  top: 4vh;
+  border-radius: 10px;
+  background: #f3f3f3;
+  padding-bottom: 20px;
+}
+
+.price-box img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.price-box-details {
+  width: 90%;
+  margin: auto;
+}
+
+.btn {
+  margin: 10px 0px;
+  width: 100%;
+}
+
+.price-row {
+  text-align: left;
+}
+
+.price-row div {
+  text-align: left;
+  margin: auto;
+}
+
+.price-box-ul {
+  margin: 10px 0px;
+}
+
+.checked {
+  color: orange;
+}
